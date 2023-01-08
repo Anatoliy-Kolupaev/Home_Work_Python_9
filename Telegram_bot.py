@@ -1,9 +1,9 @@
 from random import *
 from telebot import types
 import telebot
-import cfg
 
-bot = telebot.TeleBot(cfg.TOKEN)
+
+bot = telebot.TeleBot('TOKEN')
 
 
 num1 = ''
